@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: transparent; /* Set the background color to transparent */
+  padding:10px;
+  margin:0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F5DEB3;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+h1, h2 {
+	color: #F5DEB3;
+	font-weight: bold;
+}
+body
+{
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/maze-game.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.gif-container {
+        width: 600px;
+        height: 375px;
+        background-image: url('../assets/maze-game.gif');
+        background-size: cover;
+	background-position: center;
+	margin: 0 auto; /*Centers the container horizontally*/
+	margin-bottom: 60px;
+}
+.minimap {
+	width: 600px;
+	height: 350px;
+	background-image: url('../assets/maze-game-minimap.gif');
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 60px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.container, .mini-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 120px);
+}
+
+footer
+{
+    background-color: transparent;
+    height:60px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+p {
+    color: #FFFFFF;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+article {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.icon {
+    margin-right: 5px;
+}
+.section, a {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
