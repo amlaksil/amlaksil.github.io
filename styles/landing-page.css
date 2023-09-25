@@ -48,7 +48,7 @@ body
 }
 .gif-container {
         width: 600px;
-        height: 375px;
+        height: 300px;
         background-image: url('../assets/maze-game.gif');
         background-size: cover;
 	background-position: center;
@@ -56,8 +56,8 @@ body
 	margin-bottom: 60px;
 }
 .minimap {
-	width: 600px;
-	height: 350px;
+	width: 320px;
+	height: 163px;
 	background-image: url('../assets/maze-game-minimap.gif');
 	background-size: cover;
 	background-position: center;
@@ -102,4 +102,20 @@ article {
 .section, a {
     margin-bottom: 20px;
     color: #FFFFFF;
+}
+.button {
+	display: inline-block;
+      	padding: 10px 20px;
+      	font-size: 16px;
+      	font-weight: bold;
+      	text-decoration: none;
+      	background-color: #4CAF50;
+      	color: #ffffff;
+      	border-radius: 4px;
+      	border: none;
+	margin-top: 10px;
+      	transition: background-color 0.3s ease;
+}
+.button:hover {
+	background-color: #808080;
 }
